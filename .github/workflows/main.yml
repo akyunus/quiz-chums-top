@@ -1,12 +1,15 @@
-name: "Flutter Web App Deployment"
 
-on: [push]
+name: Gh-Pages
+
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@main
-      - uses: subosito/flutter-action@main
-      - uses: g1j0shi/flutter-web-app-deployment@main
+      - uses: actions/checkout@v2 # Only works with v2
+      - uses: subosito/flutter-action@v1
+      - uses: bluefireteam/flutter-gh-pages@v7
