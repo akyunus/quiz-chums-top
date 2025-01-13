@@ -1,0 +1,12 @@
+name: "Flutter Web App Deployment"
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@main
+      - uses: subosito/flutter-action@main
+      - uses: g1j0shi/flutter-web-app-deployment@main
