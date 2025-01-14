@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
             ),
             const ElevatedButton(
               onPressed: null, // Butonu pasif hale getirmek için onPressed'i null yapıyoruz
-              child: Text('List'),
+              child: Text('List Quizes'),
             ),
           ],
         ),
