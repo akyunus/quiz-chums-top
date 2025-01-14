@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'home_page.dart';
 
 /// handle all app routes
 final appRouter = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      builder: (_, __) => Scaffold(
-        appBar: AppBar(title: const Text('Home Screen')),
-      ),
+      builder: (_, __) => HomePage(),
       routes: [
         GoRoute(
           path: 'new',
