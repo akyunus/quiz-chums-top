@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'home_page.dart';
+import 'home/ui/home_page.dart';
 
 /// handle all app routes
 final appRouter = GoRouter(
