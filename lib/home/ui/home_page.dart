@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                 width: 360,
                 child: OutlinedButton(
                   onPressed: () {
-                    context.go('/quiz/${quiz1.id}');
+                    context.go('/new');
                   },
                   child: const Text('Create Your Quiz ->'),
                 ),
