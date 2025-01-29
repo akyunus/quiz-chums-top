@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
                   onPressed: () {
                     context.go('/new');
                   },
-                  child: const Text('Create Your Quiz ->'),
+                  child: const Text('Create Your Quiz Now ->'),
                 ),
               ),
             ],
